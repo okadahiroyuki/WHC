@@ -114,24 +114,25 @@ uv run python -m whc train \
 --device auto \
 --use_amp
 
+SEQ=6
 SIZE=32x32
-VAR=s
+VAR=l
 uv run python -m whc train \
 --data_root data/dataset.parquet \
---output_dir runs/whc_seq_3dcnn_32x32 \
+--output_dir runs/whc_seq_3dcnn_${VAR}_${SEQ}x${SIZE} \
 --epochs 100 \
 --batch_size 256 \
 --train_resampling balanced \
---image_size 32x32 \
+--image_size ${SIZE} \
 --base_channels 32 \
---num_blocks 4 \
+--num_blocks 8 \
 --arch_variant inverted_se \
 --head_variant avgmax_mlp \
 --seed 42 \
 --device auto \
 --use_amp \
 --use_sequence 3dcnn \
---sequence_len 4
+--sequence_len ${SEQ}
 
 SIZE=32x32
 VAR=s
