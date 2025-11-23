@@ -686,6 +686,9 @@ def _save_epoch_diagnostics(
         ylabel="True label",
         title=f"{split_name.capitalize()} Confusion Matrix (epoch {epoch})",
     )
+    for tick in cm_ax.get_xticklabels():
+        tick.set_rotation(25)
+        tick.set_horizontalalignment("right")
     thresh = confusion.max() / 2 if confusion.max() > 0 else 0.5
     for i in range(confusion.shape[0]):
         for j in range(confusion.shape[1]):
