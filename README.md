@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/7e9f8763-839f-46d2-98b1-320170f8ed10
 |Variant|Size|Seq|F1|CPU<br>inference<br>latency|ONNX|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |S|1.1 MB|4|0.9821|0.31 ms|[Download]()|
-|M|1.1 MB|6|0.| ms|[Download]()|
+|M|1.1 MB|6|0.9916|0.46 ms|[Download]()|
 |L|1.1 MB|8|0.| ms|[Download]()|
 
 ## Data sample
