@@ -138,20 +138,12 @@ If you find this project useful, please consider citing:
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.17670546},
   url       = {https://github.com/PINTO0309/whc},
-  abstract  = {Happy smile classifier.},
+  abstract  = {Waving Hand Classification.},
 }
 ```
 
 ## Acknowledgments
 
-- https://github.com/microsoft/FERPlus: MIT License
-  ```bibtex
-  @inproceedings{BarsoumICMI2016,
-      title={Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution},
-      author={Barsoum, Emad and Zhang, Cha and Canton Ferrer, Cristian and Zhang, Zhengyou},
-      booktitle={ACM International Conference on Multimodal Interaction (ICMI)},
-      year={2016}
-  }
 - https://github.com/PINTO0309/PINTO_model_zoo/tree/main/472_DEIMv2-Wholebody34: Apache 2.0 License
   ```bibtex
   @software{DEIMv2-Wholebody34,
