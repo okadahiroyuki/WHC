@@ -3,23 +3,21 @@
 
 Waving Hand Classification.
 
-https://github.com/user-attachments/assets/f4a68c3a-ed66-4823-a910-e5719a665821
+https://github.com/user-attachments/assets/c6b38d56-48b7-4609-bae1-f607c21ba423
+
+https://github.com/user-attachments/assets/7e9f8763-839f-46d2-98b1-320170f8ed10
 
 |Variant|Size|F1|CPU<br>inference<br>latency|ONNX|
 |:-:|:-:|:-:|:-:|:-:|
-|P|115 KB|0.4841|0.23 ms|[Download](https://github.com/PINTO0309/WHC/releases/download/onnx/whc_p_32x32.onnx)|
-|N|176 KB|0.5849|0.41 ms|[Download](https://github.com/PINTO0309/WHC/releases/download/onnx/whc_n_32x32.onnx)|
-|T|280 KB|0.6701|0.52 ms|[Download](https://github.com/PINTO0309/WHC/releases/download/onnx/whc_t_32x32.onnx)|
-|S|495 KB|0.7394|0.64 ms|[Download](https://github.com/PINTO0309/WHC/releases/download/onnx/whc_s_32x32.onnx)|
-|C|876 KB|0.7344|0.69 ms|[Download](https://github.com/PINTO0309/WHC/releases/download/onnx/whc_c_32x32.onnx)|
-|M|1.7 MB|0.8144|0.85 ms|[Download](https://github.com/PINTO0309/WHC/releases/download/onnx/whc_m_32x32.onnx)|
-|L|6.4 MB|0.8293|1.03 ms|[Download](https://github.com/PINTO0309/WHC/releases/download/onnx/whc_l_32x32.onnx)|
+|S|1.1 MB|0.9821|0.31 ms|[Download]()|
+|M|1.1 MB|0.| ms|[Download]()|
+|L|1.1 MB|0.| ms|[Download]()|
 
 ## Data sample
 
 |1|2|3|4|
 |:-:|:-:|:-:|:-:|
-|<img width="48" height="48" alt="image" src="https://github.com/user-attachments/assets/c14e1566-6a2c-49fd-8835-2cdbafd9959c" />|<img width="48" height="48" alt="image" src="https://github.com/user-attachments/assets/a6dc9668-fa5b-46a3-8787-361dd7371e79" />|<img width="48" height="48" alt="image" src="https://github.com/user-attachments/assets/9e29ae46-c7e6-437f-8b5c-6c235478b2e5" />|<img width="48" height="48" alt="image" src="https://github.com/user-attachments/assets/165ff7e1-caf1-4948-93cb-2d45c93e4c66" />|
+|<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/a5ac4472-9ab9-42ce-85f3-baa93cfb2884" />|<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/dc9bb1c7-8757-4fe7-823f-a1be1ac3b5b7" />|<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/1399a80d-b249-4c0b-8636-4e58a0ba4188" />|<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/c3edcc98-a17b-4c4f-93ab-596f521bb27c" />|
 
 ## Setup
 
@@ -34,13 +32,13 @@ source .venv/bin/activate
 
 ```bash
 uv run python demo_whc.py \
--wm whc_m_32x32.onnx \
+-wm whc_seq_3dcnn_4x32x32.onnx \
 -v 0 \
 -ep cuda \
 -dlr -dnm -dgm -dhm -dhd
 
 uv run python demo_whc.py \
--wm whc_m_32x32.onnx \
+-wm whc_seq_3dcnn_4x32x32.onnx \
 -v 0 \
 -ep tensorrt \
 -dlr -dnm -dgm -dhm -dhd
