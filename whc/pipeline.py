@@ -1459,8 +1459,10 @@ def export_to_onnx(
     input_name = "images"
     output_name = "prob_waving_hand"
     dynamic_axes = {input_name: {0: "batch"}, output_name: {0: "batch"}}
-    if use_sequence in ("lstm", "3dcnn"):
-        dynamic_axes[input_name][1] = "sequence" if use_sequence == "lstm" else "channels_or_seq"
+    if use_sequence == "lstm":
+        dynamic_axes[input_name][1] = "sequence"  # (N, T, C, H, W)
+    elif use_sequence == "3dcnn":
+        dynamic_axes[input_name][2] = "sequence"  # (N, C, T, H, W)
     torch.onnx.export(
         export_model,
         dummy,
