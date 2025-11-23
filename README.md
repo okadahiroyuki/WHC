@@ -1,5 +1,5 @@
 # WHC
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17670546.svg)](https://doi.org/10.5281/zenodo.17670546) ![GitHub License](https://img.shields.io/github/license/pinto0309/WHC) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/PINTO0309/whc)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17690769.svg)](https://doi.org/10.5281/zenodo.17690769) ![GitHub License](https://img.shields.io/github/license/pinto0309/WHC) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/PINTO0309/whc)
 
 Waving Hand Classification. Ultrafast 1x3x4x32x32 3DConv gesture estimation.
 
@@ -9,8 +9,8 @@ https://github.com/user-attachments/assets/7e9f8763-839f-46d2-98b1-320170f8ed10
 
 |Variant|Size|Seq|F1|CPU<br>inference<br>latency|ONNX|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|S|1.1 MB|4|0.9821|0.31 ms|[Download]()|
-|M|1.1 MB|6|0.9916|0.46 ms|[Download]()|
+|S|1.1 MB|4|0.9821|0.31 ms|[Download](https://github.com/PINTO0309/WHC/releases/download/onnx/whc_seq_3dcnn_4x32x32.onnx)|
+|M|1.1 MB|6|0.9916|0.46 ms|[Download](https://github.com/PINTO0309/WHC/releases/download/onnx/whc_seq_3dcnn_6x32x32.onnx)|
 |L|1.1 MB|8|0.| ms|[Download]()|
 
 ## Data sample
@@ -137,7 +137,7 @@ If you find this project useful, please consider citing:
   month     = {11},
   year      = {2025},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.17670546},
+  doi       = {10.5281/zenodo.17690769},
   url       = {https://github.com/PINTO0309/whc},
   abstract  = {Waving Hand Classification.},
 }
