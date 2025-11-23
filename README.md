@@ -1,7 +1,7 @@
 # WHC
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17670546.svg)](https://doi.org/10.5281/zenodo.17670546) ![GitHub License](https://img.shields.io/github/license/pinto0309/WHC) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/PINTO0309/whc)
 
-Waving Hand Classification.
+Waving Hand Classification. Ultrafast 1x3x4x32x32 3DConv gesture estimation.
 
 https://github.com/user-attachments/assets/c6b38d56-48b7-4609-bae1-f607c21ba423
 
