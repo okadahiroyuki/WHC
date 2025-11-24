@@ -114,7 +114,7 @@ uv run python -m whc exportonnx \
 
 ## Arch
 
-<img width="150" alt="whc_seq_3dcnn_4x32x32" src="https://github.com/user-attachments/assets/1b8d4295-3b2c-4c2f-9ed1-1a6b625cba7f" />
+<img width="150" alt="whc_seq_3dcnn_4x32x32" src="https://github.com/user-attachments/assets/66c03363-b62c-4868-9c34-f88574e44466" />
 
 ## Ultra-lightweight classification model series
 1. [VSDLM: Visual-only speech detection driven by lip movements](https://github.com/PINTO0309/VSDLM) - MIT License
