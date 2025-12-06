@@ -1,6 +1,7 @@
 #
 [DEIMv2-ONNX-Sample](https://github.com/Kazuhito00/DEIMv2-ONNX-Sample)
 
+[472_DEIMv2-Wholebody34](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/472_DEIMv2-Wholebody34)
 
 
 
